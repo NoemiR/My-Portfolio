@@ -10,55 +10,56 @@ font-family: 'Dancing Script', cursive;*/
  }
 /* Background layer with an image */
 .backdrop {
-  background: url("https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5313005eaa9683383c37dc5895469cc1&auto=format&fit=crop&w=668&q=80") center;
+  background: url("https://images.unsplash.com/photo-1469521669194-babb45599def?ixlib=rb-0.3.5&s=e47c3e84d7dea5c93d2a5dfc35e45189&auto=format&fit=crop&w=1651&q=80") center;
   
 }
     
 /* Dark foreground layer, with white text, set to "multiply" mix blend mode */
 .text {
   color: white;
-  background: rgb(59, 2, 6);
+  background: rgb(90, 2, 6);
   mix-blend-mode: multiply;
   font-size: 90px;
   text-align: center;
   margin-top: 60px;
-
 }
+
 img{ 
  
  border: 3px rgb(79, 0, 0);
  border-radius: 100px;
-
-
-
  }
+
  .img{
 
  	text-align: center;
  }
+
 #nav-container {
 	width: 100%;
 	position: fixed;
 	top: 0;
 	height: 60px;
 }
+
  nav {
  	position: relative;
  	height: 100%;
 	display: flex;
-
 	justify-content: space-around;
-
 	align-items: center;
+	/*border: 1px solid black;*/
+	background: rgb(255, 247, 231);
 
 }
+
 nav a{
 	color: rgba(59, 2, 6, 1);
 	font-size: 25px;
 	/*justify-content: space-around;*/
-	/*border: 1px solid black;*/
-
+	
 }
+
 #page1 {
 	/*height: 1000px;*/
 	width: 100vw;
@@ -71,6 +72,7 @@ nav a{
 	flex-direction: column;*/
 
 }
+
 p{
 	font-family: 'EB Garamond', serif;
 	/*font-family: 'Poiret One', cursive;*/
@@ -81,14 +83,13 @@ p{
 	justify-content: space-around;
 	font-weight: lighter;
 }
+
 h2{
 	font-family: 'Poiret One', cursive;
 	font-size: 35px;
 	text-align: center;
 	color: rgba(59, 2, 6, 1);
 	font-weight: bolder;
-
-
 }
 
 div .skill_logo{
@@ -102,15 +103,13 @@ div .skill_logo{
 	height: 400px;
 	border: 1px solid black;
 	display: flex; 
-	flex-direction: row;
-
-	
+	flex-direction: row;	
 	padding: 20px;
 	align-items: center;
 	margin-top: 10px;
 	text-align: center;
-
 }
+
  .devicon {
     font-family: devicon;
     speak: none;
@@ -125,16 +124,18 @@ div .skill_logo{
     text-align: center;
     padding: 20px;
 }
+
 i {
 	font-size: 55px;
 	text-align: center;
-
 }
+
 .story p {
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
 }
+
 #page2 {
 	width: 100vw;
 	/*border: 1px solid black;*/
@@ -142,11 +143,12 @@ i {
 	background-size: cover;
 	margin: 10px;
 	margin-top: 20px;
-
 }
+
 .project-container {
 	text-align: center;
 }
+
 .project {
 	justify-content: center;
 	font-family: 'Poiret One', cursive;
@@ -161,10 +163,12 @@ i {
 	padding: 10px;
 
 }
+
 .projectimg {
     width: 100%;
     height: auto;
 }
+
 a{
 	color: rgba(59, 2, 6, 1);
 }
@@ -174,10 +178,10 @@ a{
 	height: 500px;
 	width: 100vw; 
 	margin-bottom: 15px;
-	margin-top: 25px;
+	margin-top: 125px;
 
-	
 }
+
 .contact {
 	text-align:center;
 	width: 100vw;
